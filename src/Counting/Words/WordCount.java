@@ -39,6 +39,22 @@ public class WordCount extends JFrame {
         wrdCountButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                // create and initialize the variable to handle the text inputted into wrdTextArea
+                // grab the text from the wrdTextArea
+                String sentence = wrdTextArea.getText();
+
+                // declaration of help variables
+                int i = 0, words = 1;
+
+                // count words
+                for (i = 0; i < sentence.length(); i++) {
+                    if (sentence.charAt(i) == ' ') {
+                        words++;
+                    }
+                }
+
+                // display counted number into the appropriate text field
+                totalCountTextField.setText(" " + words);
 
             }
         });

@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="WordCountTool:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c0bf782-8a2a-4810-bd5e-83b6e4650f76" name="Changes" comment="Removing trailing whitespaces from the input text" />
+    <list default="true" id="4c0bf782-8a2a-4810-bd5e-83b6e4650f76" name="Changes" comment="Added configuration files for JAR">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,15 +44,28 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "17",
-    "project.structure.last.edited": "Artifacts",
+    "last_opened_file_path": "C:/Users/micek.m/IdeaProjects/MyProjects/WordCountTool/out/artifacts/WordCountTool_jar/WordCountTool.jar",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\micek.m\IdeaProjects\MyProjects\WordCountTool\src\Counting\Words" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="WordCountToolJAR" type="JarApplication">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/WordCountTool_jar/WordCountTool.jar" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\micek.m\IdeaProjects\MyProjects\WordCountTool" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="WordCountTool:jar" />
+        </option>
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -77,13 +97,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673871519205</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added configuration files for JAR">
+      <created>1673874132803</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1673874132803</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding buttons functions" />
     <MESSAGE value="Adding formulas to count the words" />
     <MESSAGE value="Removing trailing whitespaces from the input text" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removing trailing whitespaces from the input text" />
+    <MESSAGE value="Added configuration files for JAR" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added configuration files for JAR" />
   </component>
 </project>

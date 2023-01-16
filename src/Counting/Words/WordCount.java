@@ -43,6 +43,9 @@ public class WordCount extends JFrame {
                 // grab the text from the wrdTextArea
                 String sentence = wrdTextArea.getText();
 
+                // removing trailing whitespaces from the input text
+                sentence = sentence.replaceAll("\\s+$", "");
+
                 // declaration of help variables
                 int i = 0, words = 1;
 
